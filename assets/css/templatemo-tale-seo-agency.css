@@ -949,8 +949,8 @@ Services Style
 
     .services::before {
         content: url(../images/casal_sentado.png);
-        top: 0;
-        left: 100px;
+        top: 35px;
+        left: 270px;
         position: absolute;
         width: 844px;
         height: 714px;

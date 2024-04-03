@@ -858,8 +858,8 @@ Banner Style
         top: 265px;
         right: 55px;
         position: absolute;
-        width: 861px;
-        height: 746px;
+        width: 915px;
+        height: 500px;
         z-index: -1;
     }
 
@@ -952,8 +952,8 @@ Services Style
         top: 35px;
         left: 270px;
         position: absolute;
-        width: 844px;
-        height: 714px;
+        width: 610px;
+        height: 766px;
         z-index: -1;
     }
 
@@ -2111,6 +2111,13 @@ body {
     .services::before {
         top: 60%;
         transform: translateY(-50%);
+        left: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .main-banner:after {
+        right: 0;
     }
 }
 

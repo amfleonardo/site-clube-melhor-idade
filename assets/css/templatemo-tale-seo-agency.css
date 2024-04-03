@@ -854,9 +854,9 @@ Banner Style
 }
 
     .main-banner:after {
-        content: url(../images/banner-right.png);
-        top: -1px;
-        right: 0;
+        content: url(../images/varios_melhor_idade.png);
+        top: 80px;
+        right: 160px;
         position: absolute;
         width: 861px;
         height: 746px;
@@ -948,8 +948,8 @@ Services Style
     }
 
     .services::before {
-        content: url(../images/services-left.jpg);
-        top: 120px;
+        content: url(../images/casal_sentado.png);
+        top: 50px;
         left: 0;
         position: absolute;
         width: 844px;

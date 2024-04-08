@@ -2107,7 +2107,7 @@ body {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
     .services::before {
         top: 60%;
         transform: translateY(-50%);
@@ -2115,7 +2115,7 @@ body {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
     .main-banner:after {
         right: 0;
     }

@@ -854,7 +854,7 @@ Banner Style
 }
 
     .main-banner:after {
-        content: url(../images/varios_melhor_idade.png);
+        content: url(../images/duas_senhoras_w.png);
         top: 265px;
         right: 55px;
         position: absolute;
@@ -948,7 +948,7 @@ Services Style
     }
 
     .services::before {
-        content: url(../images/casal_sentado.png);
+        content: url(../images/casal_fit.png);
         top: 35px;
         left: 270px;
         position: absolute;

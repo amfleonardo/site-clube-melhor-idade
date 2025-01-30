@@ -1,7 +1,7 @@
 .text-box {
     background-color: #fff;
     padding: 10px;
-    color: #333;
+    color: rgb(175, 175, 175);
     border-radius: 23px;
     border: 1px solid #f3d7ff;
 }

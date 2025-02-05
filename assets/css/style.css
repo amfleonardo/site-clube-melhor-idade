@@ -37,3 +37,28 @@
     flex-direction: column;
     justify-content: flex-start;
 }
+
+
+.owl-carousel .item {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.owl-carousel .item img {
+    height: auto;
+    width: auto;
+    object-fit: cover;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.owl-carousel .owl-stage {
+    display: flex;
+    transition: transform 0.5s linear;
+}
+
+.owl-carousel .owl-item {
+    flex: 0 0 auto;
+}

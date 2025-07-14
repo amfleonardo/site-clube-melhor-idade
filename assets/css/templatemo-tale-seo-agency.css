@@ -181,35 +181,31 @@ body {
 }
 
 
-.section-heading {
-    margin-bottom: 30px;
+.section-heading .line-dec {
+    width: 60px;
+    height: 2px;
+    margin-bottom: 20px;
+    background: rgb(85,0,227);
+    background: linear-gradient(90deg, rgba(85,0,227,1) 0%, rgba(198,61,255,1) 100%);
 }
 
-    .section-heading .line-dec {
-        width: 60px;
-        height: 2px;
-        margin-bottom: 20px;
-        background: rgb(85,0,227);
-        background: linear-gradient(90deg, rgba(85,0,227,1) 0%, rgba(198,61,255,1) 100%);
+.section-heading h2 {
+    color: #2a2a2a;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-bottom: 30px;
+    line-height: 44px;
+}
+
+    .section-heading h2 em {
+        color: #5b03e4;
+        font-style: normal;
     }
 
-    .section-heading h2 {
-        color: #2a2a2a;
-        font-size: 30px;
-        text-transform: capitalize;
-        text-decoration: none;
-        margin-bottom: 30px;
-        line-height: 44px;
+    .section-heading h2 span {
+        color: #c03afe;
     }
-
-        .section-heading h2 em {
-            color: #5b03e4;
-            font-style: normal;
-        }
-
-        .section-heading h2 span {
-            color: #c03afe;
-        }
 
 /* 
 ---------------------------------------------
@@ -854,11 +850,11 @@ Banner Style
 }
 
     .main-banner:after {
-        content: url(../images/duas_senhoras_w_novo.png);
+        content: url(../images/casal_jovem.jpg);
         top: 265px;
         right: 0px;
         position: absolute;
-        width: 915px;
+        width: 750px;
         height: 500px;
         z-index: -1;
     }
@@ -948,8 +944,8 @@ Services Style
     }
 
     .services::before {
-        content: url(../images/casal_fit.png);
-        top: 130px;
+        content: url(../images/mulher_jovem.jpg);
+        top: 250px;
         left: 140px;
         position: absolute;
         width: 610px;
@@ -1005,6 +1001,9 @@ Benefits Style
     position: relative;
     overflow: hidden;
 }
+    .benefits .section-heading {
+        margin-bottom: 30px;
+    }
 
     .benefits .section-heading h2 {
         padding-right: 30px;
